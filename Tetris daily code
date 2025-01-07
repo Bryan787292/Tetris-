@@ -1,0 +1,22 @@
+#Bryan, 1/7/25
+#asks a user for how many lines they cleared in tetris and prints out different tiers
+
+
+
+score = int(input("Enter your tetris score:"))#places your tetris score
+if score <100:
+    print("Novice")
+elif score <200:
+    print ("Intermediate")
+elif score <300:
+    print ("Advanced")
+else:
+    print ("Expert")
+    
+    
+for i in range(2, 85, 10):#starts at 2 counts up by 10 ends at 82
+    print (i, end = " ")
+    
+    
+for i in range (100, 5, -5):#starts at 100 counts down by 5s ends at 10 
+    print (i, end = " ")
